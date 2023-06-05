@@ -1,6 +1,6 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/example/kriscfoster/multi-language-bazel-monorepo
+# gazelle:prefix github.com/kriscfoster/multi-language-bazel-monorepo
 gazelle(name = "gazelle")
 
 gazelle(

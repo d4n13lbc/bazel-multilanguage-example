@@ -5,6 +5,6 @@ py_binary(
     srcs = ["main.py"],
     deps = [
         "//projects/python_calculator:calculator",
-        requirement("Flask")
-    ]
+        requirement("Flask"),
+    ],
 )
