@@ -1,0 +1,4 @@
+# GCC 12
+#build:gcc12 --cxxopt=-std=c++23
+build:gcc12 --cxxopt=-std=c++20
+build:gcc11 --cxxopt=-Wall
